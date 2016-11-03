@@ -1,6 +1,6 @@
 ## Introductory Example - python variant
 
-#PBS -lnodes=1:ppn=4
+#PBS -lnodes=1:ppn=1
 #PBS -lwalltime=1:00
 ## Specify the shell to be bash
 #PBS -S /bin/bash
