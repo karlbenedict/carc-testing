@@ -1,0 +1,12 @@
+## Introductory Example - python variant
+
+#PBS -lnodes=1:ppn=4
+#PBS -lwalltime=1:00
+## Specify the shell to be bash
+#PBS -S /bin/bash
+
+## Load the python 2.7 module
+module load python/2.7.3/gcc/4.3.4
+
+## Run the python code
+python 01_analysis.py
