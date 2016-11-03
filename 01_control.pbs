@@ -9,4 +9,4 @@
 module load python/2.7.3/gcc/4.3.4
 
 ## Run the python code
-python 01_analysis.py
+python ~/repos/01_analysis.py
